@@ -1,0 +1,34 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+*.pyc
+__pycache__/
+
+# Archivos de configuración de VSCode y PyCharm
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de log o temporales
+*.log
+*.tmp
+
+# Base de datos temporal o exportaciones
+*.sqlite3
+*.db
+*.csv
+
+# Archivos generados por el scraper 
+web/data.json
+scrapers/web_scrapers
+
+# Jupyter notebooks temporales 
+.ipynb_checkpoints/
+
+# Archivos de configuración de OS
+*.swp
